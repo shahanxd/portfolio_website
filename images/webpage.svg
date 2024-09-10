@@ -1,0 +1,35 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="SVGRepo_iconCarrier">
+    <!-- Main Container -->
+    <path style="fill:#31363F;" d="M100,396c-15.436,0-28-12.564-28-28V140c0-15.436,8.564-24,24-24h316c15.436,0,28,12.564,28,28v224c0,15.436-12.564,28-28,28H100z"></path>
+    <!-- Colored Dots -->
+    <circle style="fill:#1a1e23;" cx="95.812" cy="140" r="8"></circle>
+    <circle style="fill:#66B2B2;" cx="119.812" cy="140" r="8"></circle>
+    <circle style="fill:#888;" cx="143.812" cy="140" r="8"></circle>
+    <!-- Top Header -->
+    <g>
+      <path style="fill:#F5F5F5;" d="M403.812,144c0,2.2-1.8,4-4,4h-232c-2.2,0-4-1.8-4-4v-8c0-2.2,1.8-4,4-4h232c2.2,0,4,1.8,4,4V144z"></path>
+      <path style="fill:#F5F5F5;" d="M424,372c0,4.4-3.6,8-8,8H96c-4.4,0-8-3.6-8-8V172c0-4.4,3.6-8,8-8h320c4.4,0,8,3.6,8,8V372z"></path>
+    </g>
+    <!-- Side Panel and Top Bar -->
+    <g>
+      <path style="fill:#1a1e23;" d="M160,356c0,4.4-3.6,8-8,8h-40c-4.4,0-8-3.6-8-8V188c0-4.4,3.6-8,8-8h40c4.4,0,8,3.6,8,8V356z"></path>
+      <path style="fill:#1a1e23;" d="M400,180c4.4,0,8,3.6,8,8v40c0,4.408-3.6,8-8,8H184c-4.4,0-8-3.592-8-8v-40c0-4.4,3.6-8,8-8H400z"></path>
+    </g>
+    <!-- Text Lines -->
+    <g>
+      <rect x="176" y="248" style="fill:#888;" width="232" height="8"></rect>
+      <rect x="176" y="260" style="fill:#888;" width="232" height="8"></rect>
+      <rect x="176" y="272" style="fill:#888;" width="232" height="8"></rect>
+      <rect x="176" y="284" style="fill:#66B2B2;" width="52" height="52"></rect>
+    </g>
+    <!-- Middle Section -->
+    <rect x="236" y="284" style="fill:#66B2B2;" width="52" height="52"></rect>
+    <g>
+      <rect x="296" y="284" style="fill:#66B2B2;" width="52" height="52"></rect>
+      <rect x="356" y="284" style="fill:#888;" width="52" height="52"></rect>
+    </g>
+  </g>
+</svg>
