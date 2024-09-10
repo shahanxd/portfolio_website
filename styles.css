@@ -1,0 +1,400 @@
+/* font */
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value h1 300 to 700 */
+
+.fira-code-<uniquifier> {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bg1 {
+  background: linear-gradient(to right, #66B2B2 50% , #31363F 50%) ;
+  height: 100vh ;
+  width: 100% ;
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 0 10% ;
+}
+
+
+.left-text {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 60px ;
+  color: #31363F ;
+  transform: translate(500px , 0px) ;
+}
+
+.right-text {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 60px ;
+  color: #66B2B2 ;
+  transform: translate(-500px , 0px) ;
+
+}
+
+h1 {
+    font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #697565 ;
+}
+
+.custom-navbar {
+  justify-content: center ;
+  background-color: #1a1e23 ;
+}
+
+.center-buttons {
+  display: flex ;
+  transform: translate(-735px , 0px) ;
+}
+
+.btn-link {
+  color: #ffffff ;
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-decoration: none ;
+  font-size: 16px ;
+}
+
+
+.btn-link:hover {
+  color: #66B2B2 ;
+}
+
+.divider-text {
+  font-family: "Fira Code", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 11px ;
+  color: black ;
+  text-align: center;
+  display: flex; align-items: center; justify-content: center; overflow: hidden; white-space: nowrap;
+}
+
+.skills:nth-child(odd) {
+  margin-top: -40px; /* Adjust the value as needed */
+}
+
+.skills-container {
+  display: flex ;
+  flex-wrap: wrap ;
+  gap: 40px ;
+  padding-top: 5px ;
+  align-items: center ;
+}
+
+
+.skill-logo {
+  width: 65px ;
+  height: auto ;
+  align-items: left ;
+}
+
+.bg2 {
+  display: flex ;
+  width: auto ;
+  height: 250px ;
+  position: relative ;
+  background: #1a1e23 ;
+  justify-content: center ;
+  align-items: center;
+  padding: 0 10% ;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+
+
+
+.progress {
+  z-index: 1 ;
+  top: 0 ;
+  position: relative ;
+  height: 10px;
+  margin-top: 10px;
+  width: 4rem;
+}
+.size{
+  height: 400px;
+  width: 100px ;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgb(26, 30, 35) !important;
+}
+
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: rgb(102,178,178) !important;
+}
+
+.progress {
+  --bs-progress-bg: transparent ;
+}
+
+.bg3 {
+  background: #31363F ;
+  height: 550px ;
+  width: 100% ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center;
+  font-family: "Fira Code", system-ui;
+}
+
+.skills {
+  height: 100px ;
+  width: 100px ;
+}
+
+.about-heading {
+  color: #66B2B2 ;
+  font-size: 70px ;
+  transform: translate(-300px , -250px) ;
+}
+
+.about-desc-1 {
+  color: #8f8f91 ;
+  font-size: 35px ;
+  font-weight: 480 ;
+}
+
+.about-desc-2 {
+  color: #ffffff ;
+  font-size: 22px ;
+  font-weight: 150 ;
+  transform: translate(50px , 0px) ;
+}
+
+.about-part-1 {
+  transform: translate(-280px , -26px) ;
+}
+
+.about-part-2 {
+  transform: translate(-280px , 30px) ;
+}
+
+.grey-text {
+  color: #737373 ;
+}
+
+.window {
+  background-color: #000000 ;
+  height: auto ;
+  width: 500px ;
+  transform: translate(250px , 0px) ;
+  border-radius: 5px ;
+}
+
+.code1 {
+  color: #ffffff ;
+}
+
+.code2 {
+  color: #66B2B2 ;
+}
+
+pre {
+  margin: 0 ;
+  padding: 10px ;
+  color: #ffffff ;
+  overflow: auto ;
+}
+
+.footer {
+  background: #1a1e23 ;
+  height: 180px ;
+  width: 100% ;
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+  align-items: center;
+  font-family: "Fira Code", system-ui;
+}
+
+.handles {
+  align-items: center ;
+  display: flex ;
+  flex-wrap: wrap ;
+  gap: 30px ;
+  transform: translate(0px , 0px) ;
+}
+
+.handles-logo {
+  width: 35px ;
+  height: auto ;
+}
+
+.footer-text {
+  color: grey ;
+  clear: both ;
+  font-size: 15px ;
+  transform: translate(0px , 30px) ;
+
+}
+
+.bg4 {
+  font-family: "Fira Code", system-ui ;
+  background: #1a1e23 ;
+  height: 100vh ;
+  width: auto ;
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+  align-items: center;
+}
+
+.contact-info {
+  transform: translate(-500px , 40px) ;
+}
+
+.contact-heading-grey {
+  color: grey ;
+  font-weight: 100 ;
+}
+
+
+.contact-heading-teal {
+  color: #66B2B2 ;
+  font-weight: 600 ;
+}
+
+.mail-window {
+  background-color: #303740 ;
+  height: 40px ;
+  width: 280px ;
+  border-radius: 5px ;
+  transform: translate(0px , 10px) ;
+  align-items: center ;
+}
+
+.mail-text {
+  font-size: 25px ;
+  color: #ffffff ;
+  font-weight: 300 ;
+  transform: translate(4px , 4px) ;
+}
+
+.copy-icon {
+  transform: translate(290px , -31.5px) ;
+  height: 25px ;
+  width: auto ;
+  cursor: pointer;
+}
+
+.contact-window {
+  background-color: #303740 ;
+  height: 250px ;
+  width: 500px ;
+  transform: translate(375px , -90px) ;
+  border-radius: 5px ;
+  padding: 10px ;
+}
+
+.contact-code {
+  font-weight: 400 ;
+  line-height: 1.75 ;
+}
+
+.handles-logo-contact {
+  width: 28px ;
+  height: auto ;
+  align-items: center ;
+  display: flex ;
+  flex-wrap: wrap ;
+  transform: translate(10px , 11px) ;
+}
+
+.bg5 {
+  background: #31363F ;
+  min-height: 100vh ;
+  width: auto ;
+  font-family: "Fira Code", system-ui;
+
+}
+
+.project{
+  height
+}
+
+.project-numbering {
+  color: grey ;
+  font-size: 125px ;
+  font-weight: 600 ;
+}
+
+.project-name {
+  color: #66B2B2 ;
+  font-size: 65px ;
+  font-weight: 500 ;
+  letter-spacing: -3px;
+}
+
+.project-data {
+  color: grey ;
+  font-size: 35px ;
+  font-weight: 300 ;
+}
+
+.project-desc {
+  color: grey ;
+  font-size: 25px ;
+  font-weight: 300 ;
+  transform: translate(30px , 0px) ;
+}
+
+.project-desc-window {
+  background: transparent ;
+  height: 200px ;
+  width: 500px ;
+}
+
+.project-tech-stack {
+  align-items: center ;
+  display: flex ;
+  flex-wrap: wrap ;
+  transform: translate(290px , -25px) ;
+  gap: 20px ;
+}
+
+.project-tech-stack-logo {
+  height: 45px ;
+  width: auto ;
+}
+
+.project-button {
+  color: #66B2B2 ;
+  border-color: #66B2B2 ;
+}
+
+.project-button:hover {
+  background-color: #1a1e23 ;
+  color: #ffffff ;
+  border-color: #66B2B2 ;
+}
+
+.project-button:active {
+  background-color: #1a1e23 !important ;
+  color: #ffffff ;
+  border-color: #66B2B2 !important ;
+}
