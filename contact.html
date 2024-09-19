@@ -11,6 +11,23 @@
 
         const copyIcon = document.getElementById('copyIcon');
         const textToCopy = document.getElementById('textToCopy');
+
+
+copyIcon.addEventListener('click', function() {
+  navigator.clipboard.writeText(textToCopy.textContent)
+    .then(() => {
+      // Success! Show a visual confirmation (optional)
+      copyIcon.classList.add('copied'); // Add a class for styling (e.g., green background)
+      setTimeout(() => {
+        copyIcon.classList.remove('copied'); // Remove the class after a brief delay
+      }, 1000); // Adjust delay as needed (e.g., 2000 for 2 seconds)
+    })
+    .catch(err => {
+      // Clipboard write failed (e.g., permissions denied)
+      console.error('Failed to copy email address:', err);
+      // Optionally show an error message to the user
+    });
+});
         
         <title>Shahan - Contact</title>
 
