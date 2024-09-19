@@ -9,27 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 
-        const copyIcon = document.getElementById('copyIcon');
-        const textToCopy = document.getElementById('textToCopy');
-
-
-copyIcon.addEventListener('click', function() {
-  navigator.clipboard.writeText(textToCopy.textContent)
-    .then(() => {
-      copyIcon.classList.add('copied'); // Add a class for styling (e.g., green background)
-      setTimeout(() => {
-        copyIcon.classList.remove('copied'); // Remove the class after a brief delay
-      }, 1000);
-    })
-    .catch(err => {
-      console.error('Failed to copy email address:', err);
-    });
-});
-        
         <title>Shahan - Contact</title>
-
-
-
 
     </head>
     <body>
@@ -50,8 +30,7 @@ copyIcon.addEventListener('click', function() {
                 <h2 class = "contact-heading-grey">mail me a <span class = "contact-heading-teal">hello..</span></h2>
                 <div class = "mail-window">
                     <h2 class = "mail-text">shahanxd@gmail.com</h2>
-                    <img src="images/copy.svg" id="copyIcon" class = "copy-icon">
-                    <p id="textToCopy" style = "display: none ; ">shahanxd@gmail.com</p>
+
                     <div class = "handles" style = "transform: translate(25px , 20px) ;">
                         <a href = "mailto:shahanxd@gmail.com"><img src = "images/gmail_logo.svg" class = "handles-logo-contact"></a>
                         <a href = "https://www.linkedin.com/in/shahanxd/"><img src = "images/linkedin_logo.svg" class = "handles-logo-contact"></a>
